@@ -18,6 +18,8 @@ class ViewController: UIViewController {
 
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        btnRotateAnticlockwise.isUserInteractionEnabled = false
+        btnRotateAnticlockwise.alpha = 0.5
     }
 
     /**
